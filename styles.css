@@ -1,0 +1,107 @@
+
+body {
+  font-family: 'Montserrat';
+  position:relative;
+  background-image: url("main.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+/**NAVBAR***/
+.navbar{
+  padding-top: 0;
+  display:flex;
+  padding:40px 120px;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size:2.5rem;
+  padding-top: 0;
+}
+.navbar-item{
+  padding:0 18px;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:'Montserrat-black';
+}
+#hero {
+  width: 100%;
+  height: 83vh;
+  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  position:relative;
+}
+.banner-title{
+  color:#fff;
+  margin : 0 0 2.17vh 0;
+  font-size: 6.45vh;
+  font-weight:400;
+  line-height:12.2vh;
+  top: 100px;
+  right:2.17vh;
+  padding-top:10%;
+  text-align: right;
+
+}
+h1{
+  font-family: 'Montserrat bold'
+
+}
+h3{
+  font-family: 'Ubuntu';
+
+}
+.payment-button{
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.83vh;
+  letter-spacing: 0.15vh;
+  /*display: inline-block;*/
+  padding: 1.74vh 6.53vh 1.96vh 6.53vh;
+  align-items: center;
+  display:flex;
+
+  transition: 0.5s;
+  border: 0.45vh;
+  color: #fff;
+}
+
+/*FOOTER*/
+#footer {
+  color: #000;
+  text-align: center;
+  margin:0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top:2px;
+  background-color: #fff;
+  height:4.75rem;
+
+}
+.social-links a {
+  font-size: 3.92vh;
+  display: inline-block;
+  line-height: 1;
+  padding: 1.74vh 0;
+  margin-right: 0.871vh;
+  border-radius: 50%;
+  text-align: center;
+  width: 0.871vh;
+  /*height: 36px;*/
+  transition: 0.3s;
+}
+
+.social-icon {
+  margin: 2.35vh 2.17vh;
+}
